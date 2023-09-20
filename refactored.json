@@ -1,0 +1,111 @@
+{
+  "identificacao": {
+      "nome": "",
+      "data_nascimento": "",
+      "sexo": "",
+      "endereco": {
+          "rua": "",
+          "cidade": "",
+          "estado": "",
+          "cep": ""
+      }
+  },
+  "anamnese": [
+      {
+          "data": "",
+          "relato": ""
+      }
+  ],
+  "cirurgias_anteriores": [
+      {
+          "nome": "",
+          "data": "",
+          "hospital": "",
+          "profissional": ""
+      },
+      {
+          "nome": "",
+          "data": "",
+          "hospital": "",
+          "profissional": ""
+      }
+  ],
+  "medicacoes": [
+      {
+          "nome": "",
+          "dose": "",
+          "frequencia": "",
+          "inicio_tratamento": "",
+          "tempo_tratamento": "",
+          "nome_apresentacao": ""
+      },
+      {
+          "nome": "",
+          "dose": "",
+          "frequencia": "",
+          "inicio_tratamento": "",
+          "tempo_tratamento": "",
+          "nome_apresentacao": ""
+      }
+  ],
+  "resultados_exames": [
+      {
+          "exame": "",
+          "valor": "",
+          "data": "",
+          "unidade_medida": "",
+          "referencia": "",
+          "imagens": [
+              "",
+              ""
+          ]
+      },
+      {
+          "exame": "",
+          "valor": "",
+          "data": "",
+          "unidade_medida": "",
+          "referencia": "",
+          "imagens": [
+              "",
+              ""
+          ]
+      }
+  ],
+  "tratamentos": [
+      {
+          "tipo": "",
+          "inicio_tratamento": "",
+          "tempo_tratamento": "",
+          "descricao": ""
+      },
+      {
+          "tipo": "",
+          "inicio_tratamento": "",
+          "tempo_tratamento": "",
+          "descricao": ""
+      }
+  ],
+  "complicacoes": [
+      {
+          "nome": "",
+          "data_diagnostico": "",
+          "tratamento": ""
+      },
+      {
+          "nome": "",
+          "data_diagnostico": "",
+          "tratamento": ""
+      }
+  ],
+  "consultas_medicas": [
+      {
+          "data": "",
+          "observacoes": ""
+      },
+      {
+          "data": "",
+          "observacoes": ""
+      }
+  ]
+}
