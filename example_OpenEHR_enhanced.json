@@ -1,0 +1,90 @@
+{
+  "identificacao": {
+    "nome": "João da Silva",
+    "data_nascimento": "1985-05-15",
+    "sexo": "masculino",
+    "endereco": {
+      "rua": "Rua das Flores, 123",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-567"
+    }
+  },
+  "anamnese": {
+    "historico_medico": "Diabetes diagnosticada há 5 anos. Hipertensão controlada com medicação.",
+    "cirurgias_anteriores": [
+      {
+        "nome": "Cirurgia de apendicite",
+        "data": "2010-08-20",
+        "hospital": "Hospital São Paulo",
+        "profissional": "Dr. José da Silva"
+      },
+      {
+        "nome": "Cirurgia de hérnia inguinal",
+        "data": "2015-03-10",
+        "hospital": "Hospital São Paulo",
+        "profissional": "Dr. José da Silva"
+      }
+    ]
+  },
+  "medicacoes": [
+    {
+      "nome": "Metformina",
+      "dose": "850mg",
+      "frequencia": "2 vezes ao dia",
+      "inicio_tratamento": "2018-03-15"
+    },
+    {
+      "nome": "Insulina NPH",
+      "dose": "20 unidades",
+      "frequencia": "à noite",
+      "inicio_tratamento": "2020-11-25"
+    }
+  ],
+  "resultados_exames": [
+    {
+      "exame": "Glicose no sangue",
+      "valor": "120 mg/dL",
+      "data": "2023-07-15",
+      "unidade_medida": "mg/dL",
+      "referencia": "70-140 mg/dL"
+    },
+    {
+      "exame": "Hemoglobina glicada",
+      "valor": "7.2%",
+      "data": "2023-07-15",
+      "unidade_medida": "%",
+      "referencia": "< 7%"
+    }
+  ],
+  "tratamentos": {
+    "dieta": "Dieta com baixo teor de carboidratos e açúcares. Consultar nutricionista regularmente.",
+    "exercicios": {
+      "tipo": "Caminhada diária",
+      "duracao": "30 minutos",
+      "recomendacoes_adicionais": "Incluir exercícios de resistência duas vezes por semana."
+    }
+  },
+  "complicacoes": [
+    {
+      "nome": "Neuropatia periférica",
+      "data_diagnostico": "2021-02-10",
+      "tratamento": "Fisioterapia e medicação para alívio da dor."
+    },
+    {
+      "nome": "Retinopatia diabética",
+      "data_diagnostico": "2022-05-20",
+      "tratamento": "Consultas oftalmológicas regulares e possível intervenção cirúrgica."
+    }
+  ],
+  "consultas_medicas": [
+    {
+      "data": "2023-07-10",
+      "observacoes": "Ajuste de dose de insulina. Pressão arterial controlada."
+    },
+    {
+      "data": "2023-06-15",
+      "observacoes": "Avaliação de complicações. Encaminhamento para fisioterapia."
+    }
+  ]
+}
