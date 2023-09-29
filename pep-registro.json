@@ -1,0 +1,51 @@
+// Cartão de Identificação Hospital
+
+{
+  "@context": ["..."],
+  "type": ["VerifiableCredential", "HealthCard"],
+  "issuer": {
+    "name": "Hospital das Clínicas UFPE",
+    "id": "did:web:www.hc.ufpe.br",
+    "url": "http://www.hc.ufpe.br"
+  },
+  "subject": "did:jdk:123456",
+  "credentialSubject": {
+    "id": 123456,
+    "nome": "João da Silva",
+    "data de nascimento": "1985-05-15",
+    "sexo": "masculino",
+    "filiação": {
+      "mãe": "Maria da Silva",
+      "pai": "Pedro da Silva",      
+    },
+    "cuidador": {
+      "nome": "Maria da Silva", 
+      "id": 123455,
+      "relação": "mãe"
+    },
+    "endereço": {
+      "rua": "Rua das Flores, 123",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01234-567"
+    },
+    "diagnósticos": {
+      "do paciente": {
+        "diabetes": true, 
+        "hipertensão": true, 
+        "renais crônicas": false,
+        "alergias": false
+      },
+      "da familia": {
+        "diabetes": false, 
+        "hipertensão": true, 
+        "renais crônicas": false,
+        "alergias": false
+      },
+      "observacoes": [
+        "Diabetes diagnosticada em 2007.",
+        "Hipertensão controlada com medicação."
+      ]
+    }
+  }
+}
