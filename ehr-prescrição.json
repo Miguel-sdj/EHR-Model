@@ -1,0 +1,22 @@
+// Prescrição
+
+{
+  "@context": ["..."],
+  "type": ["VerifiableCredential", "EHR Prescription"],
+  "issuer": {
+    "name": "Hospital das Clínicas UFPE",
+    "id": "did:web:www.hc.ufpe.br",
+    "url": "http://www.hc.ufpe.br"
+  },
+  "subject": "did:jdk:123456",
+  "credentialSubject": {
+    "id responsavel": 12345,
+    "tipo do id": "CRM/PE",
+    "nome substância": "Metformina",
+    "nome popular": "Metiformol",
+    "apresentação": "850mg",
+    "posologia": "tomar 2 comprimidos 1 vez ao dia de jejum",
+    "inicio tratamento": "2018-03-15",
+    "tempo tratamento": "2 meses"
+  }
+}
