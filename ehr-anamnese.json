@@ -10,6 +10,7 @@
   },
   "subject": "did:jdk:123456",
   "credentialSubject": {
+    "paciente": "João da Silva",
     "relato": "",
     "cid": "",
     "id responsavel": 12345,
