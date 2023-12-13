@@ -1,0 +1,27 @@
+{
+    "credentialSubject": {
+        "testeDoOlinho": {
+            "data": "",
+            "olhoDireitoNormal": true,
+            "olhoEsquertoNormal": true,
+            "observacoes": ""
+        },
+        "testeDoCoracaozinho": {
+            "data": "",
+            "normal": true,
+            "observacoes": ""
+        },
+        "testeDaOrelhinha": {
+            "data": "",
+            "emissaoOtocusticaEvocada": "",
+            "potencialEvocadoAuditivoDeTroncoEncefalico": "",
+            "ouvidoDireitoNormal": true,
+            "ouvidoEsquerdoNormal": true,
+            "conduta": ""
+        },
+        "testeDoPezinho": {
+            "data": "",
+            "dataResteste": ""
+        }
+    }
+}

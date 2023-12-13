@@ -1,0 +1,78 @@
+{
+    "credentialSubject": {
+        "consulta": "1 semana/1 mes/2 mes/4 mes/9 mes/12 mes/18 mes/24 mes/36 mes",
+        "medidas": {
+            "pc": "",
+            "peso": "",
+            "comprimento": "",
+            "imc": ""
+        },
+        "aleitamento": {
+            "tipoDeLeite": "LME/LM+LA/LA",
+            "descricaoLeiteLA": "",
+            "dificuldadeAmamentar": true,
+            "descricaoDificuldadeAmamentar": "",
+            "desmame": false,
+            "idadeDesmame": "",
+            "descricaoDesmame": "",
+            "alimentacao": "",
+            "porcoesFrutasPorDia": "",
+            "alimentoIndustrializado": false,
+            "descricaoAlimentoIndustrializado": ""
+        },
+        "sinaisAlerta":{
+            "cotoUmbilicalInfeccionado": false,
+            "ictericia": false,
+            "diarreiaVomito": false,
+            "dificuldadeRespiracao": false,
+            "febre": false,
+            "hipotermia": false,
+            "convulsoesMovimentoAnormal": false,
+            "cianoseAuscultaCardiacaAlterada": false,
+            "secrecaoNasal": false,
+            "colicasEngasgos": false,
+            "diarreiaConstipacao": false,
+            "vomitosGolfadas": false,
+            "sibilancias": false,
+            "outros": ""
+        },
+        "vacinas": {
+            "hepatiteB": true,
+            "bcg": false
+        },
+        "lacosDeAfeto": "",
+        "triagemNeoNatal": [
+            {
+                "exame": "pezinho/coracaozinho/orelinha/olhinho",
+                "realizado": true,
+                "resultadoNormal": true,
+                "encaminhado": ""
+            }
+        ],
+        "exameOcular": {
+            "aberturaOcularNormal": true,
+            "pupilasNormais": true,
+            "estrabismo": false,
+            "segueOlhar": true
+        },
+        "vacinasAtualizadas": true,
+        "desenvolvimento": {
+            "interacaoMaeFilho": "",
+            "avaliacao": "adequado para idade/alerta para o desenvolvimento/provavel atraso no desenvolvimento",
+            "observacoes": ""
+        },
+        "cuidadosEspeciais": {
+            "tempoDeSono24Horas": "",
+            "acidentesDomesticos": false,
+            "posicaoDoSono": "",
+            "funcionamentoIntestinoColicas": "",
+            "higieneCuidadosGerais": "",
+            "sinaisViolenciaNegligencia": false,
+            "descricaoViolenciaNegligencia": "",
+            "suplementacaoDeFerro": false,
+            "suplementacaoDeMicronutrientes": false,
+            "suplementacaoVitaminaA": false,
+            "acompanhamentoOdontologico": false
+        }
+    }
+}
